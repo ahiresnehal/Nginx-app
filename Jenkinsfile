@@ -46,10 +46,11 @@ pipeline {
                                        withKubeConfig([credentialsId: 'testconfig'])
        {
      
-         sh 'kubectl get pods'
+         //sh 'kubectl get pods'
          sh 'pwd'
          sh 'ls'
-         sh 'kubectl apply -f newds.yaml'
+         sh 'cd ..'
+         //sh 'kubectl apply -f newds.yaml'
                                        }
                                      }
               }
