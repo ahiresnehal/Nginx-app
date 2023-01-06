@@ -51,8 +51,6 @@ pipeline {
          sh 'ls'
          sh 'cd ..'
          sh 'ls'
-         sh 'cd Nginx-app'
-         sh 'ls'
          //sh 'kubectl apply -f newds.yaml'
                                        }
                                      }
