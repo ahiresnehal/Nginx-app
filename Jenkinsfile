@@ -15,7 +15,7 @@ pipeline {
                                                }
                          stage('git clone') {
                                               steps {
-                                         git credentialsId: 'github', url: 'https://github.com/ahiresnehal/Nginx-app.git'
+                                         git credentialsId: 'githubclass', url: 'https://github.com/ahiresnehal/Nginx-app.git'
                                                 sh 'ls'
                                                 sh 'pwd'
                                                         }
