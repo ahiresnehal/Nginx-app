@@ -65,7 +65,7 @@ pipeline {
        {
      
          sh 'kubectl get pods'
-         sh 'kubectl apply -f deploymentservice.yaml'
+         sh 'kubectl apply -f newds.yaml'
                                        }
                                      }
               }
