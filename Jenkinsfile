@@ -13,13 +13,13 @@ pipeline {
                                                echo 'Hello World'
                                                }
                                                }
-                         stage('git clone') {
+                        /* stage('git clone') {
                                               steps {
                                          git credentialsId: 'githubclass', url: 'https://github.com/ahiresnehal/Nginx-app.git'
                                                 sh 'ls'
                                                 sh 'pwd'
                                                         }
-                                                        }
+                                                        }*/
             
         stage('Docker Build and Tag') {
                                               steps {
