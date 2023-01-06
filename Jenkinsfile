@@ -51,7 +51,8 @@ pipeline {
          sh 'ls'
          sh 'cd ..'
          sh 'ls'
-         //sh 'kubectl apply -f newds.yaml'
+         sh 'kubectl apply -f newds.yaml'
+         sh 'kubectl get pods'
                                        }
                                      }
               }
