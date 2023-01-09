@@ -40,7 +40,7 @@ pipeline {
              
               
               
-              stage('deploy to rancher') {
+              stage('Deploy to kubernetes cluster') {
                                      steps {
                                                echo 'continuous deployment'
                                        withKubeConfig([credentialsId: 'testconfig'])
